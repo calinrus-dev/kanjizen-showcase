@@ -33,4 +33,4 @@ La función pura no importa React Native, persistencia ni UI. Se puede probar en
 [Capturas de la aplicación](docs/DEMOSTRACIONES.md) · [Recorrido de aprendizaje](docs/EXPERIENCIA.md) · [Origen y límites](docs/PROVENANCE.md) · [Verificación](docs/VERIFICATION.md) · [Portfolio](https://github.com/calinrus-dev/portfolio)
 
 
-[Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus/)
+[Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus-dev/)
