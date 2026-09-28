@@ -1,59 +1,36 @@
-![KanjiZen — Del símbolo al reflejo.](assets/hero.svg)
+# KanjiZen / Reconocer no es recordar.
 
-# KanjiZen
+**Japonés convertido en entrenamiento.** Leer, recuperar la respuesta y fijarla con el gesto. La primera ruta jugable combina hiragana, MECA y Flick; progresión por dominio demostrado, colección e historial local.
 
-**Del símbolo al reflejo.**
+**Expo · React Native · TypeScript** · Recorrido previo en Dart y Flutter.
 
-Un dojo digital de japonés que conecta recuerdo activo, memoria gestual y retos contrarreloj. La primera ruta jugable combina hiragana, MECA y teclado Flick con progresión por dominio y continuidad local.
+![Flick real de KanjiZen: entrenamiento gestual de kana.](assets/flick.png)
 
-**Stack:** TypeScript · React Native · Expo  
-**Estado:** Primera ruta jugable · Hiragana, MECA y Flick
+## Tres trabajos distintos
 
-[Portfolio](https://github.com/calinrus-dev/portfolio) · [Experiencia](docs/EXPERIENCIA.md) · [Componentes](docs/COMPONENTES.md) · [Diseño técnico](docs/ARQUITECTURA.md) · [Demostraciones](docs/DEMOSTRACIONES.md) · [Estado](docs/ESTADO.md)
+**La guía enseña. MECA exige recuperar. Flick añade memoria gestual.** Separar esas funciones importa: haber visto la respuesta no demuestra poder recordarla. El flujo completo del producto conserva progreso; la muestra pública de abajo se concentra en una pieza comprobable.
 
-## El problema que aborda
+## Escribe «si». Debe aceptarlo.
 
-Leer un carácter, recordar su sonido y producirlo con un gesto requieren habilidades distintas. KanjiZen las conecta en un entrenamiento que alterna aprendizaje con guía, respuesta autónoma y progresión por dominio, con la intención de hacer la práctica más directa y consistente.
+[**Probar el evaluador real →**](https://calinrus-dev.github.io/kanjizen-showcase/) · [Código](samples/romaji.js) · [Pruebas](test/romaji.test.mjs)
 
-## Qué compone la experiencia
+El evaluador admite variantes completas como `si → shi`, `ti → chi` y `sya → sha`. El orden importa: una respuesta válida completa debe ganar a un prefijo. También admite kana directo en MECA.
 
-- **MECA · lectura activa.** Producir la lectura del kana mediante teclado, con práctica guiada y retos contrarreloj.
-- **Flick · memoria gestual.** Aprender y reproducir kana mediante las direcciones de un teclado Flick.
-- **Campaña por dominio.** Abrir nuevas filas al demostrar lectura y reproducción autónomas.
-- **Progreso local.** Colección, XP, nivel e historial de sesiones conservados en el dispositivo.
+[![Pruebas de la muestra](https://github.com/calinrus-dev/kanjizen-showcase/actions/workflows/verify.yml/badge.svg)](https://github.com/calinrus-dev/kanjizen-showcase/actions/workflows/verify.yml)
 
-![Mapa conceptual de KanjiZen: Elegir una fila → Practicar con guía → Responder sin ayuda → Revisar el progreso.](assets/experiencia.svg)
+~~~sh
+node --test test/*.test.mjs
+~~~
 
-*Lámina explicativa con datos ficticios. Su contenido también está disponible como texto en [Componentes](docs/COMPONENTES.md).*
+## Una decisión que se puede discutir
 
-## Galería real
+Hay dos contratos explícitos: `evaluateStep` espera entrada normalizada; `mecaEvaluate` recorta espacios y normaliza mayúsculas. Esa diferencia está conservada y probada. No se maquilla para que el ejemplo parezca más uniforme que el producto.
 
-![Inicio real de la preview web con perfil de prueba.](assets/inicio.png)
+La función pura no importa React Native, persistencia ni UI. Se puede probar en Node y utilizar en una interfaz sin arrastrar el framework. La muestra abre validación de entrada; SRS, recompensas, selección de ejercicios y progresión continúan privados.
 
-*Inicio real de la preview web con perfil de prueba.*
+**Estado del producto:** primera ruta jugable de hiragana, MECA y Flick. No se presenta el recorrido futuro de kanji como terminado.
 
-![Ejercicio guiado real de Flick en la preview web.](assets/flick.png)
+[Capturas de la aplicación](docs/DEMOSTRACIONES.md) · [Recorrido de aprendizaje](docs/EXPERIENCIA.md) · [Origen y límites](docs/PROVENANCE.md) · [Verificación](docs/VERIFICATION.md) · [Portfolio](https://github.com/calinrus-dev/portfolio)
 
-*Ejercicio guiado real de Flick en la preview web.*
 
-## Decisiones que definen el proyecto
-
-- **Ayuda y autonomía tienen funciones distintas.** La guía sirve para aprender; las respuestas sin ayuda aportan evidencia de dominio.
-- **Una habilidad necesita varias formas de práctica.** Lectura MECA y reproducción Flick mantienen su contexto, pero contribuyen al mismo recorrido.
-- **El entrenamiento debe estar cerca.** Catálogo y progreso local mantienen la continuidad de la práctica sin exigir una cuenta remota.
-
-## Explorar el caso
-
-- [Experiencia y recorrido](docs/EXPERIENCIA.md): intención, interacción y criterios de revisión.
-- [Componentes](docs/COMPONENTES.md): las piezas visibles y el papel de cada una.
-- [Diseño técnico](docs/ARQUITECTURA.md): responsabilidades y compromisos de diseño.
-- [Demostraciones](docs/DEMOSTRACIONES.md): qué enseñan las imágenes y cómo leer la evidencia.
-- [Estado y siguientes pasos](docs/ESTADO.md): alcance actual, comprobaciones y trabajo pendiente.
-
-## Sobre este repositorio
-
-Caso de estudio público de un proyecto con implementación privada. Reúne documentación, diagramas e imágenes seleccionadas. Los detalles del motor, integraciones, datos operativos y código se mantienen en los repositorios privados.
-
-Revisión editorial: 28 de septiembre de 2026. Autor: [Calin Rus](https://github.com/calinrus-dev).
-
-[calinrus.com](https://calinrus.com) · [Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [Todos los proyectos](https://github.com/calinrus-dev/portfolio)
+[Instagram @c4linrus](https://www.instagram.com/c4linrus/) · [LinkedIn / calinrus](https://www.linkedin.com/in/calinrus/)
