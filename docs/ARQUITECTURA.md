@@ -4,7 +4,7 @@
 
 ## Contexto
 
-Entrenamiento de lectura y escritura de kana mediante sesiones breves, entrada por teclado y gestos Flick, con progreso local.
+Un dojo digital de japonés que conecta recuerdo activo, memoria gestual y retos contrarreloj. La primera ruta jugable combina hiragana, MECA y teclado Flick con progresión por dominio y continuidad local.
 
 **Tecnologías asociadas al proyecto:** TypeScript · React Native · Expo.
 
@@ -19,17 +19,17 @@ flowchart TD
     C --> D["Catálogo y guardado local"]
 ```
 
-## Reconocer no equivale a dominar
+## Ayuda y autonomía tienen funciones distintas
 
-La práctica con ayuda y la respuesta autónoma se distinguen en la experiencia.
+La guía sirve para aprender; las respuestas sin ayuda aportan evidencia de dominio.
 
-## Cada motor conserva su contexto
+## Una habilidad necesita varias formas de práctica
 
-Cambiar de ejercicio no debe arrastrar una respuesta ni un temporizador anterior.
+Lectura MECA y reproducción Flick mantienen su contexto, pero contribuyen al mismo recorrido.
 
-## Continuidad sin fricción
+## El entrenamiento debe estar cerca
 
-Las sesiones y las preferencias se recuperan localmente sin depender de una cuenta remota.
+Catálogo y progreso local mantienen la continuidad de la práctica sin exigir una cuenta remota.
 
 ## Rendimiento y dependencia
 

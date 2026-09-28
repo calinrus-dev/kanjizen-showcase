@@ -22,10 +22,10 @@ El 28 de septiembre de 2026 se abrió la aplicación, se entró en práctica gui
 
 Este guion sirve para explicar el recorrido documentado y preparar una demostración controlada. No afirma que se haya ejecutado completo durante esta publicación.
 
-1. **Elegir una fila.** Observar: Lectura de kana y respuesta en romaji dentro de una sesión acotada.
-2. **Practicar con guía.** Observar: Práctica guiada y reproducción mediante gestos.
-3. **Responder sin ayuda.** Observar: Consulta de caracteres y continuidad entre filas de aprendizaje.
-4. **Revisar el progreso.** Observar: Seguimiento de sesiones, progresión y preferencias visuales.
+1. **Elegir una fila.** Observar: Producir la lectura del kana mediante teclado, con práctica guiada y retos contrarreloj.
+2. **Practicar con guía.** Observar: Aprender y reproducir kana mediante las direcciones de un teclado Flick.
+3. **Responder sin ayuda.** Observar: Abrir nuevas filas al demostrar lectura y reproducción autónomas.
+4. **Revisar el progreso.** Observar: Colección, XP, nivel e historial de sesiones conservados en el dispositivo.
 
 ## Lectura de la lámina
 

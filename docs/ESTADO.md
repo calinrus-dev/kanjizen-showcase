@@ -2,7 +2,7 @@
 
 [← Inicio](../README.md)
 
-**Estado publicado:** Primera experiencia de kana.  
+**Estado publicado:** Primera ruta jugable · Hiragana, MECA y Flick.  
 **Fecha de revisión:** 28 de septiembre de 2026.
 
 ## Qué se ha comprobado

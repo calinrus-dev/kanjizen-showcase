@@ -4,39 +4,39 @@
 
 ## Intención
 
-Reconocer un símbolo al verlo y producir su lectura son habilidades diferentes. KanjiZen las trabaja en recorridos separados que comparten una colección y un perfil de progreso.
+Leer un carácter, recordar su sonido y producirlo con un gesto requieren habilidades distintas. KanjiZen las conecta en un entrenamiento que alterna aprendizaje con guía, respuesta autónoma y progresión por dominio, con la intención de hacer la práctica más directa y consistente.
 
 ## El recorrido
 
 ### 1. Elegir una fila
 
-Lectura de kana y respuesta en romaji dentro de una sesión acotada.
+Producir la lectura del kana mediante teclado, con práctica guiada y retos contrarreloj.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
 ### 2. Practicar con guía
 
-Práctica guiada y reproducción mediante gestos.
+Aprender y reproducir kana mediante las direcciones de un teclado Flick.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
 ### 3. Responder sin ayuda
 
-Consulta de caracteres y continuidad entre filas de aprendizaje.
+Abrir nuevas filas al demostrar lectura y reproducción autónomas.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
 ### 4. Revisar el progreso
 
-Seguimiento de sesiones, progresión y preferencias visuales.
+Colección, XP, nivel e historial de sesiones conservados en el dispositivo.
 
 La revisión de esta fase observa si el contexto, la acción disponible y el resultado pueden entenderse sin perder el hilo del trabajo.
 
 ## Criterios de interacción
 
-- **Reconocer no equivale a dominar.** La práctica con ayuda y la respuesta autónoma se distinguen en la experiencia.
-- **Cada motor conserva su contexto.** Cambiar de ejercicio no debe arrastrar una respuesta ni un temporizador anterior.
-- **Continuidad sin fricción.** Las sesiones y las preferencias se recuperan localmente sin depender de una cuenta remota.
+- **Ayuda y autonomía tienen funciones distintas.** La guía sirve para aprender; las respuestas sin ayuda aportan evidencia de dominio.
+- **Una habilidad necesita varias formas de práctica.** Lectura MECA y reproducción Flick mantienen su contexto, pero contribuyen al mismo recorrido.
+- **El entrenamiento debe estar cerca.** Catálogo y progreso local mantienen la continuidad de la práctica sin exigir una cuenta remota.
 
 ## Accesibilidad como criterio de diseño
 

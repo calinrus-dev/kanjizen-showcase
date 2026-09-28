@@ -1,26 +1,26 @@
-![KanjiZen — Ver. Recordar. Escribir. Repetir.](assets/hero.svg)
+![KanjiZen — Del símbolo al reflejo.](assets/hero.svg)
 
 # KanjiZen
 
-**Ver. Recordar. Escribir. Repetir.**
+**Del símbolo al reflejo.**
 
-Entrenamiento de lectura y escritura de kana mediante sesiones breves, entrada por teclado y gestos Flick, con progreso local.
+Un dojo digital de japonés que conecta recuerdo activo, memoria gestual y retos contrarreloj. La primera ruta jugable combina hiragana, MECA y teclado Flick con progresión por dominio y continuidad local.
 
 **Stack:** TypeScript · React Native · Expo  
-**Estado:** Primera experiencia de kana
+**Estado:** Primera ruta jugable · Hiragana, MECA y Flick
 
 [Portfolio](https://github.com/calinrus-dev/portfolio) · [Experiencia](docs/EXPERIENCIA.md) · [Componentes](docs/COMPONENTES.md) · [Diseño técnico](docs/ARQUITECTURA.md) · [Demostraciones](docs/DEMOSTRACIONES.md) · [Estado](docs/ESTADO.md)
 
 ## El problema que aborda
 
-Reconocer un símbolo al verlo y producir su lectura son habilidades diferentes. KanjiZen las trabaja en recorridos separados que comparten una colección y un perfil de progreso.
+Leer un carácter, recordar su sonido y producirlo con un gesto requieren habilidades distintas. KanjiZen las conecta en un entrenamiento que alterna aprendizaje con guía, respuesta autónoma y progresión por dominio, con la intención de hacer la práctica más directa y consistente.
 
 ## Qué compone la experiencia
 
-- **MECA.** Lectura de kana y respuesta en romaji dentro de una sesión acotada.
-- **Flick.** Práctica guiada y reproducción mediante gestos.
-- **Colección.** Consulta de caracteres y continuidad entre filas de aprendizaje.
-- **Perfil local.** Seguimiento de sesiones, progresión y preferencias visuales.
+- **MECA · lectura activa.** Producir la lectura del kana mediante teclado, con práctica guiada y retos contrarreloj.
+- **Flick · memoria gestual.** Aprender y reproducir kana mediante las direcciones de un teclado Flick.
+- **Campaña por dominio.** Abrir nuevas filas al demostrar lectura y reproducción autónomas.
+- **Progreso local.** Colección, XP, nivel e historial de sesiones conservados en el dispositivo.
 
 ![Mapa conceptual de KanjiZen: Elegir una fila → Practicar con guía → Responder sin ayuda → Revisar el progreso.](assets/experiencia.svg)
 
@@ -38,9 +38,9 @@ Reconocer un símbolo al verlo y producir su lectura son habilidades diferentes.
 
 ## Decisiones que definen el proyecto
 
-- **Reconocer no equivale a dominar.** La práctica con ayuda y la respuesta autónoma se distinguen en la experiencia.
-- **Cada motor conserva su contexto.** Cambiar de ejercicio no debe arrastrar una respuesta ni un temporizador anterior.
-- **Continuidad sin fricción.** Las sesiones y las preferencias se recuperan localmente sin depender de una cuenta remota.
+- **Ayuda y autonomía tienen funciones distintas.** La guía sirve para aprender; las respuestas sin ayuda aportan evidencia de dominio.
+- **Una habilidad necesita varias formas de práctica.** Lectura MECA y reproducción Flick mantienen su contexto, pero contribuyen al mismo recorrido.
+- **El entrenamiento debe estar cerca.** Catálogo y progreso local mantienen la continuidad de la práctica sin exigir una cuenta remota.
 
 ## Explorar el caso
 

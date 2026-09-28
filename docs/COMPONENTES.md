@@ -6,33 +6,33 @@
 
 Lámina conceptual con contenido ficticio. Las piezas de esta página describen la experiencia y sus responsabilidades visibles.
 
-## 01 / MECA
+## 01 / MECA · lectura activa
 
-Lectura de kana y respuesta en romaji dentro de una sesión acotada.
+Producir la lectura del kana mediante teclado, con práctica guiada y retos contrarreloj.
 
 **En el recorrido:** Elegir una fila.
 
 **Responsabilidad relacionada:** Rutas de entrenamiento.
 
-## 02 / Flick
+## 02 / Flick · memoria gestual
 
-Práctica guiada y reproducción mediante gestos.
+Aprender y reproducir kana mediante las direcciones de un teclado Flick.
 
 **En el recorrido:** Practicar con guía.
 
 **Responsabilidad relacionada:** Sesiones e interacción.
 
-## 03 / Colección
+## 03 / Campaña por dominio
 
-Consulta de caracteres y continuidad entre filas de aprendizaje.
+Abrir nuevas filas al demostrar lectura y reproducción autónomas.
 
 **En el recorrido:** Responder sin ayuda.
 
 **Responsabilidad relacionada:** Progreso de aprendizaje.
 
-## 04 / Perfil local
+## 04 / Progreso local
 
-Seguimiento de sesiones, progresión y preferencias visuales.
+Colección, XP, nivel e historial de sesiones conservados en el dispositivo.
 
 **En el recorrido:** Revisar el progreso.
 
